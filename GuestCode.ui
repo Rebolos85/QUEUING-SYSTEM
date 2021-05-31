@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>671</width>
+    <height>371</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="firstTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>671</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>671</width>
+     <height>371</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#firstTimeLabel {
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight:500 ;
+color:#fff;
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>E:/backgroundImages/wizardAnotherBackground.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="deleteid">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#deleteid{
+font:18px bold;
+border-style:outset;
+border-width:2px;
+border-radius:20px;
+border-color:white;
+padding-left: 120px;
+background-color:#1c313a;
+color:#ffffff;
+}
+
+#deleteid::hover{
+
+font:18px bold;
+border-color:black;
+border-style:outset;
+border-width:2px;
+border-radius:20px;
+background-color:#DF7006;
+color:#333333;
+
+}
+
+
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Guest Code</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="outsiderStudent_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>330</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#outsiderStudent_2{
+text-decoration: none;
+border:none;
+font-weight:600;
+ text-decoration: underline black;
+font: bold 13px;
+color:#fff;
+
+}
+
+#outsiderStudent_2::hover {
+text-decoration: none;
+border:none;
+font-weight:600;
+ text-decoration: underline black;
+font: bold 13px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Go back to login</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="studentAccount">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>271</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#studentAccount {
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight:500 ;
+color:#fff;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Click here to go back in login&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
